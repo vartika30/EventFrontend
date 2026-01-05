@@ -7,7 +7,7 @@ import Header from "./components/Header";
 
 const EventDetail = () => {
     const {eventId} = useParams();
-    const {data, loading, error} = useFetch(`https://event-n17l.vercel.app/events/${eventId}`)
+    const {data, loading, error} = useFetch(`https://event-w7es.vercel.app/events/${eventId}`)
     
     const formatDate = (dateStr) => {
       if (!dateStr) return "";

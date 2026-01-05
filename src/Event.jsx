@@ -17,12 +17,12 @@ const Events = () => {
     return () => clearTimeout(timer);
   }, [search]);
 
-  let url = "https://event-n17l.vercel.app/events";
+  let url = "https://event-w7es.vercel.app/events";
 
   if (search) {
-    url = `https://event-n17l.vercel.app/event/search/${completeSearch}`;
+    url = `https://event-w7es.vercel.app/event/search/${completeSearch}`;
   } else if (typeFilter) {
-    url = `https://event-n17l.vercel.app/event/${typeFilter}`;
+    url = `https://event-w7es.vercel.app/event/${typeFilter}`;
   }
     const {data, loading, error} = useFetch(url)
     
