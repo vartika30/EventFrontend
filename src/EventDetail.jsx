@@ -89,9 +89,6 @@ const EventDetail = () => {
                 
                 </div>
 
-                <button className="btn btn-danger d-grid gap-2 col-4 mx-auto rounded">
-                    RSVP
-                 </button>
                 
              </div>
         
